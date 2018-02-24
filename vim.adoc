@@ -1,0 +1,19 @@
+= Vim Notes
+
+A place to keep tips, tricks and pluging while learning about VIM
+
+== General notes
+* Buffers
+** `:bd #` switches back to last buffer like windows Alt-Tab also called alternate buffer
+** `:buffdo` to execute a command over all buffers
+** Args List
+*** Normally created when passing in a list of files on vim startup but can be add\removed manaully
+*** Used sequensially like a linked pointer list where normal buffers are more randomly jumped to
+*** `:n` moves to the next file in the argument list
+*** `:wn` saves file and moves to next file in argument list
+*** `:rewind` returns to first file in args list
+* Windows
+** A view onto the buffers, multiple windows can see the same buffer
+** `ctrl-wx` swap windows (useful if you are just referencing)
+** `ctrl-wc` close windows
+** `ctrl-wo` close all other windows
